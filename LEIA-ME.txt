@@ -1,0 +1,91 @@
+
+TEMPERATURA DO AR E DA SUPERFÍCIE - PERNAMBUCO
+================================================
+
+Fonte:
+ECMWF ERA5-Land
+
+Google Earth Engine:
+ECMWF/ERA5_LAND/DAILY_AGGR
+
+VARIÁVEIS
+---------
+
+Temperatura do ar:
+temperature_2m
+
+Temperatura da superfície:
+skin_temperature
+
+
+UNIDADE
+-------
+Graus Celsius (°C)
+
+
+RESOLUÇÃO ESPACIAL
+------------------
+Aproximadamente 11,1 km.
+
+
+EXCEL
+-----
+
+O arquivo Excel contém médias espaciais DIÁRIAS
+calculadas sobre todo o território do estado de
+Pernambuco.
+
+Colunas principais:
+
+Data
+
+Temperatura_ar_C
+
+Temperatura_superficie_C
+
+
+GeoTIFF
+-------
+
+Cada GeoTIFF corresponde à média temporal
+pixel a pixel do respectivo período.
+
+Períodos:
+
+1991-1995
+1996-2000
+2001-2005
+2006-2010
+2011-2015
+2016-2020
+2021-2026
+
+
+São produzidos dois TIFFs por período:
+
+1. Temperatura média do ar
+
+2. Temperatura média da superfície
+
+
+OBSERVAÇÃO SOBRE 2026
+---------------------
+
+O ERA5-Land é atualizado progressivamente.
+
+Assim, o período 2021-2026 utiliza automaticamente
+todos os dias de 2026 disponíveis no Earth Engine
+no momento da execução do código.
+
+Não são criados valores artificiais para datas
+que ainda não estejam disponíveis.
+
+
+IMPORTANTE
+----------
+
+"Temperatura da superfície" corresponde à
+skin_temperature do ERA5-Land.
+
+Ela não corresponde à LST de sensores como
+MODIS ou Landsat.

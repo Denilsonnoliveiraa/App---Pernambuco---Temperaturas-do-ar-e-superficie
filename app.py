@@ -1743,7 +1743,7 @@ with abas[0]:
             "lattes": None
         },
         {
-            "nome": "Débora Cordeiro de Sousa",
+            "nome": "Débora de Sousa Cordeiro",
             "instituicao":
                 "Universidade Federal Rural de Pernambuco",
             "vinculo":
